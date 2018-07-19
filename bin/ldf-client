@@ -13,6 +13,8 @@ if (!(args.q || args.f) && args._.length < 2 || args._.length < 1 || args.h || a
     'The ldf-client tool evaluates a SPARQL query over one of more datasets',
     'that are published as Triple Pattern Fragments.',
     '',
+    'This is the fork of ldf-client used by BioEnrichment.',
+    '',
     'Usage:',
     '  ldf-client http://fragments.example.org/dataset [-q] \'SELECT * WHERE { ?s ?p ?o }\'',
     '  ldf-client http://fragments.example.org/dataset [-f] query.sparql',
