@@ -1,6 +1,6 @@
 {
-  "name": "ldf-client",
-  "description": "Linked Data Fragments Client",
+  "name": "@bioenrichment/ldf-client",
+  "description": "Linked Data Fragments Client, enrichment edition",
   "version": "2.0.5",
   "license": "MIT",
   "main": "ldf-client.js",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:LinkedDataFragments/Client.js.git"
+    "url": "git@github.com:BioEnrichment/ldf-client.git"
   },
   "bugs": {
-    "url": "https://github.com/LinkedDataFragments/Client.js/issues"
+    "url": "https://github.com/BioEnrichment/ldf-client/issues"
   },
   "scripts": {
     "docs": "jsdoc -c jsdoc.json README.md lib",
