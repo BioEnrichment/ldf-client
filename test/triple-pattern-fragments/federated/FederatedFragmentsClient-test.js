@@ -2,7 +2,7 @@
 var FederatedFragmentsClient = require('../../../lib/triple-pattern-fragments/federated/FederatedFragmentsClient');
 
 var FragmentsClient = require('../../../lib/triple-pattern-fragments/FragmentsClient'),
-    AsyncIterator = require('asynciterator'),
+    AsyncIterator = require('../../../lib/asynciterator'),
     rdf = require('../../../lib/util/RdfUtil'),
     fs = require('fs'),
     path = require('path');

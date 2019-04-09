@@ -2,7 +2,7 @@
 var HttpClient = require('../../lib/util/HttpClient');
 
 var EventEmitter = require('events').EventEmitter,
-    AsyncIterator = require('asynciterator');
+    AsyncIterator = require('../../lib/asynciterator');
 
 describe('HttpClient', function () {
   describe('The HttpClient module', function () {

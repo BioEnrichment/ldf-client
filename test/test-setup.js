@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 
 var Logger = require('../lib/util/Logger'),
-    AsyncIterator = require('asynciterator');
+    AsyncIterator = require('../../lib/asynciterator');
 Logger.setLevel('warning');
 
 // Set up the sinon stubbing library

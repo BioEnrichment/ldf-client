@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 var ControlsExtractor = require('../../lib/extractors/ControlsExtractor');
 
-var AsyncIterator = require('asynciterator'),
+var AsyncIterator = require('../../lib/asynciterator'),
     rdf = require('../../lib/util/RdfUtil'),
     N3 = require('n3'),
     fs = require('fs'),

@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 var CountExtractor = require('../../lib/extractors/CountExtractor');
 
-var AsyncIterator = require('asynciterator'),
+var AsyncIterator = require('../../lib/asynciterator'),
     rdf = require('../../lib/util/RdfUtil');
 
 describe('CountExtractor', function () {

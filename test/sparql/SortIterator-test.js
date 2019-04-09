@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 var SortIterator = require('../../lib/sparql/SortIterator');
 
-var AsyncIterator = require('asynciterator');
+var AsyncIterator = require('../../lib/asynciterator');
 
 describe('SortIterator', function () {
   describe('The SortIterator module', function () {

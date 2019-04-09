@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 var CompositeExtractor = require('../../lib/extractors/CompositeExtractor');
 
-var AsyncIterator = require('asynciterator');
+var AsyncIterator = require('../../lib/asynciterator');
 
 describe('CompositeExtractor', function () {
   describe('The CompositeExtractor module', function () {

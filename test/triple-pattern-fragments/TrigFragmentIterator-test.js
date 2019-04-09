@@ -1,6 +1,6 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 var TrigFragmentIterator = require('../../lib/triple-pattern-fragments/TrigFragmentIterator');
-var AsyncIterator = require('asynciterator'),
+var AsyncIterator = require('../../lib/asynciterator'),
     fs = require('fs'),
     path = require('path');
 

@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 /* Dummy implementation of FragmentsClient that reads fragments from disk. */
 
-var TransformIterator = require('asynciterator').TransformIterator,
+var TransformIterator = require('../../lib/asynciterator').TransformIterator,
     fs = require('fs'),
     path = require('path'),
     N3 = require('n3'),

@@ -24,7 +24,6 @@
     "browserify": "browserify . -s ldf -u stream -o ldf-client-browser.js"
   },
   "dependencies": {
-    "asynciterator": "^1.1.0",
     "chalk": "^2.4.2",
     "follow-redirects": "^1.0.0",
     "json-stringify-safe": "^5.0.1",

@@ -1,7 +1,7 @@
 /*! @license MIT ©2014-2016 Ruben Verborgh, Ghent University - imec */
 var UnionIterator = require('../../lib/sparql/UnionIterator');
 
-var AsyncIterator = require('asynciterator');
+var AsyncIterator = require('../../lib/asynciterator');
 
 describe('UnionIterator', function () {
   describe('The UnionIterator module', function () {
